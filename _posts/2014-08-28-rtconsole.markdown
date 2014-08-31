@@ -32,7 +32,7 @@ That's the driving motivation behind rtconsole.
 Getting Started
 ---------------
 
-This is built on top of IPython 2.2.0, copy [rtconsole.py][rtconsole] into your project and run the `test_console.py` script, simplified version reproduced below:
+Copy [rtconsole.py][rtconsole] into your project and run the `test_console.py` script, simplified version reproduced below:
 
     import time
     from rtconsole import start_console
