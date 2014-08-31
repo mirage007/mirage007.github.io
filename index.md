@@ -5,7 +5,7 @@ tagline: Thinking Tech and Tinkering
 ---
 {% include JB/setup %}
 
-Latest Blog Post
+Latest Post
 ============
 
 <div class='post'>

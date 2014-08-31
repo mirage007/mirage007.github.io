@@ -32,21 +32,19 @@ That's the driving motivation behind rtconsole.
 Getting Started
 ---------------
 
-Assuming you have IPython 2.2 installed, copy [rtconsole.py][rtconsole] into your project and run the `test_console.py` script, simplified version reproduced below:
+This is built on top of IPython 2.2.0, copy [rtconsole.py][rtconsole] into your project and run the `test_console.py` script, simplified version reproduced below:
 
-{% highlight python %}
-import time
-from rtconsole import start_console
-start_console(locals())
-time.sleep(5) # takes some time for it to start
-t = 0
-hello = lambda x: x**2
-while True:
-    t += 1
-    s = hello(t)
-    time.sleep(1)
-print t # this will print to the ipython console
-{% endhighlight %}
+    import time
+    from rtconsole import start_console
+    start_console(locals())
+    time.sleep(5) # takes some time for it to start
+    t = 0
+    hello = lambda x: x**2
+    while True:
+        t += 1
+        s = hello(t)
+        time.sleep(1)
+    print t # this will print to the ipython console
 
 Assuming no other ipython sessions are running, you can now access the script via the IPython console:
 
